@@ -12,6 +12,7 @@ def load_api_config():
     api_url = f"https://generativelanguage.googleapis.com/{api_version}/models/{model}:generateContent"
     return api_url, api_key, model
 
+
 def chat():
     api_url, api_key, model = load_api_config()
     print("✅ ZeroShot.py is running inside the virtual environment!")
@@ -36,6 +37,7 @@ def chat():
                 "Content-Type": "application/json",
                 "x-goog-api-key": api_key
             }
+            
 
             try:
                 response = requests.post(api_url, json=payload, headers=headers)
