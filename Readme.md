@@ -37,11 +37,7 @@ MindEase is an AI-powered conversational agent designed to provide emotional sup
 ### 1. **Backend**
 - **Language**: Python
 - **Frameworks**: Flask or FastAPI for API development.
-- **Libraries**:
-  - `requests`: For API calls.
-  - `python-dotenv`: For managing environment variables.
-  - `vaderSentiment`, `TextBlob`, or `transformers`: For sentiment analysis.
-  - `matplotlib`: For mood trend visualization.
+
 
 ### 2. **Frontend**
 - **Framework**: React or Vue.js for building the chatbot interface.
